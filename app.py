@@ -17,4 +17,4 @@ iface = gr.Interface(fn=analyze_sentiment,
                      title="Sentiment Analyzer",
                      description="A simple sentiment analysis demo using Hugging Face transformers.")
 
-iface.launch()
+iface.launch(share=True)
